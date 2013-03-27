@@ -1,4 +1,4 @@
-aperoweb-toulouse.github.com
-============================
+#aperoweb Toulouse
 
-Aperoweb Toulouse
+Refaire le web autour d'un verre en toute décontraction.
+
