@@ -1,6 +1,7 @@
 body {
-	font: normal 110%/1.4 Georgia, serif;
+	font: normal 110%/1.5 Georgia, serif;
 	color : #4c434e;
+	margin: 0;
 }
 
 header {
@@ -24,6 +25,7 @@ body > header {
 
 h1, h2, h3 {
 	font-family: 'Lato', sans-serif;
+	line-height: 1.15;
 	color: #655d67;
 	margin: 1em 0 0;
 }
@@ -42,6 +44,18 @@ a {
 
 a:hover {
 	text-decoration: none;
+}
+
+.reset {
+	padding: 0;
+	margin:0;
+	list-style: none;
+}
+
+.archives li {
+	line-height: 2;
+	padding: .5em 0;
+	border-bottom: thin dashed #eee;
 }
 
 hr {

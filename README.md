@@ -1,4 +1,3 @@
 #aperoweb Toulouse
 
-Refaire le web autour d'un verre en toute décontraction.
-
+Rencontres informelles entre passionnés de conception pour le web.

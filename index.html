@@ -11,20 +11,21 @@
 	<div class="container">
 		<header role="banner">
 			<img class="logo" src="img/aperoweb.png"></header>
-		<section class="next-edition" role="main">
+		<section class="next-edition" role="main" itemscope itemtype="http://data-vocabulary.org/Event">
 			<header>
 				<h2>Prochaine édition</h2>
-				<p> <strong>Jeudi 4 Avril 2013 à partir de 19h à
-						<a href="http://goo.gl/maps/SHiIr">EPITECH Toulouse</a>
+				<p> <strong><time itemprop="startDate" datetime="2014-04-04 19:00">Jeudi 4 Avril 2013 à partir de 19h</time> à
+						<a itemprop="location" href="http://goo.gl/maps/SHiIr">EPITECH Toulouse</a>
 						.</strong> 
 				</p>
 				<p>
-					<a class="btn" href="http://aperoweb-toulouse-17.eventbrite.fr/">Entrée gratuite sur inscription</a>
+					<a itemprop="tickets" class="btn" href="http://aperoweb-toulouse-17.eventbrite.fr/">Entrée gratuite sur inscription</a>
 				</p>
 			</header>
 			<p class="bigger">
-				Deux présentations de 30 minutes suivi de questions-réponses puis on file refaire le web autour d'un verre.
-				<h3>Tester son JS, c’est possible</h3>
+				Deux présentations de 30 minutes suivi de questions-réponses avant d'aller refaire le web autour d'un verre.
+				<meta itemprop="duration" datetime="P1H30M">
+				<h3 itemprop="summary">Tester son JS, c’est possible</h3>
 				<p>
 					Présenté par
 					<a href="https://twitter.com/goldoraf">Raphaël Rougeron</a>
@@ -38,7 +39,7 @@
 					<li>CasperJS</li>
 					<li>jsTestDriver</li>
 				</ul>
-				<h3>Nettoyer ses feuilles de styles</h3>
+				<h3 itemprop="summary">Nettoyer ses feuilles de styles</h3>
 				<p>
 					Présenté par
 					<a href="https://twitter.com/moox">Maxime Thirouin</a>
@@ -57,11 +58,11 @@
 				</p>
 			</section>
 			<hr />
-			<section>
+			<section class="archives">
 				<h2>Précédentes éditions</h2>
-				<ul>
+				<ul class="reset">
 					<li>
-						07/03/2013 : #17 —
+						<time datetime="2013-03-07">07/03/2013</time> : #17 —
 						<cite>Sublime vs Vim</cite>
 						avec
 						<a href="http://twitter.com/pierremartin">Pierre Martin</a>
@@ -89,7 +90,7 @@
 						<a href="https://twitter.com/GBarrere">Gautier Barrère</a>
 						,
 						<a href="https://twitter.com/usenico">Nicolas Klotz</a>
-						et Pierre-Antoine Nicolay
+						et <a href="https://twitter.com/pa_nicolay">Pierre-Antoine Nicolay</a>
 					</li>
 					<li>
 						08/12/2012 : Meetup UX #1 — Conférence sur le Persuasive Design (
