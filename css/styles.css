@@ -6,7 +6,11 @@ body {
 }
 
 header {
-	background: #fbfbfb; /* Old browsers */
+	text-align: center;
+	background: #f6f6f6;
+}
+
+body > header {
 	background: -moz-linear-gradient(top,  #fbfbfb 0%, #f6f6f6 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfbfb), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  #fbfbfb 0%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
@@ -14,18 +18,32 @@ header {
 	background: -ms-linear-gradient(top,  #fbfbfb 0%,#f6f6f6 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #fbfbfb 0%,#f6f6f6 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
-	text-align: center;
 }
 
-
+.next-edition header {
+	padding: 1em 0;
+}
 
 h1, h2, h3 {
 	font-family: 'Lato', sans-serif;
 	color: #655d67;
+	margin: 1em 0 0;
 }
+
+h3 {
+	font-size: 150%;
+}
+
+h3 + p {
+	margin-top: 0;
+} 
 
 a {
 	color: #db2293;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 hr {
@@ -43,4 +61,15 @@ footer {
 
 .bigger {
 	font-size: 120%;
+}
+
+.btn {
+	display: inline-block;
+	background: rgba(219, 34, 147, 0.8);
+	color: #fff;
+	padding: .5em 1em;
+}
+
+.btn:hover {
+	background: rgb(219, 34, 147);
 }
