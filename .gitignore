@@ -1,1 +1,9 @@
-_site/
+.gitignore
+
+# normalize
+css/component.json
+css/components/normalize-css/CHANGELOG.md
+css/components/normalize-css/LICENSE.md
+css/components/normalize-css/README.md
+css/components/normalize-css/component.json
+css/components/normalize-css/test.html
